@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/CyberSafe/static/css/main.d3dab08d.css",
+    "main.js": "/CyberSafe/static/js/main.cfc4e375.js",
+    "static/js/787.fbc6086a.chunk.js": "/CyberSafe/static/js/787.fbc6086a.chunk.js",
+    "static/media/Orbitron-VariableFont_wght.ttf": "/CyberSafe/static/media/Orbitron-VariableFont_wght.7228a1c750b75b23bdb4.ttf",
+    "index.html": "/CyberSafe/index.html",
+    "main.d3dab08d.css.map": "/CyberSafe/static/css/main.d3dab08d.css.map",
+    "main.cfc4e375.js.map": "/CyberSafe/static/js/main.cfc4e375.js.map",
+    "787.fbc6086a.chunk.js.map": "/CyberSafe/static/js/787.fbc6086a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d3dab08d.css",
+    "static/js/main.cfc4e375.js"
+  ]
+}
