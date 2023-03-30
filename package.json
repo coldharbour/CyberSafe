@@ -1,5 +1,5 @@
 {
-  "homepage" :"https://coldharbour.github.io/CyberSafe/",
+  "homepage": "https://coldharbour.github.io/CyberSafe/",
   "name": "cybersafe",
   "version": "0.1.0",
   "private": true,
@@ -17,9 +17,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "netlify deploy --prod --dir=build",
-    "postdeploy": "echo 'Deploy Complete!'"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
