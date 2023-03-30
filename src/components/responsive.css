@@ -1,0 +1,47 @@
+/* Add this media query at the end of the first file */
+@media only screen and (max-width: 768px) {
+    .dropdown-content {
+      width: 90vw !important; /* Change to percentage for responsiveness */
+      padding: 3px; /* Adjust padding as needed */
+      
+      
+    }
+    .dropdown-item {
+        font-size: 8px;
+    }
+    .dropdown-content button {
+      padding: 2px 5px; /* Adjust padding as needed */
+    }
+  }
+  
+  /* Add this media query at the end of the second file */
+  @media only screen and (max-width: 768px) {
+    .app-heading {
+      font-size: 48px; /* Adjust font size as needed */
+    }
+  
+    .app-sub-heading {
+      font-size: 24px; /* Adjust font size as needed */
+    }
+  }
+  
+  /* Add this media query at the end of the third file */
+  @media only screen and (max-width: 768px) {
+    .carousel-item.left {
+      transform: translateX(-200px) scale(0.5) !important; /* Adjust translateX and scale as needed */
+    }
+  
+    .carousel-item.right {
+      transform: translateX(200px) scale(0.5) !important; /* Adjust translateX and scale as needed */
+    }
+  
+    .carousel-item-content {
+        
+      padding: none !important;
+      width: 200px !important;
+      height: 300px !important;
+    }
+
+    
+  }
+  
