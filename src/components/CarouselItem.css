@@ -1,0 +1,67 @@
+.carousel-item {
+    position: absolute;
+  
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .carousel-item.left {
+    transform: translateX(-300px) scale(0.6);
+  }
+  
+  .carousel-item.right {
+    transform: translateX(300px) scale(0.6);
+  }
+  
+  .carousel-item-content {
+    width: 250px;
+    height: 350px;
+    padding: 20px;
+    color: white;
+    border-radius: 10px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.2em;
+    text-align: center;
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+    border: 2px solid #2bff84;
+    box-shadow: 0px 0px 5px #2bff84;
+    background-color: #111;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .carousel-item.flipped .carousel-item-content {
+    transform: rotateY(180deg);
+  }
+  
+  .carousel-item-front,
+  .carousel-item-back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
+  
+  .carousel-item-front {
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .carousel-item-back {
+    transform: rotateY(180deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .carousel-item-front:first-child {
+    font-weight: bold;
+  }
+
+ 
