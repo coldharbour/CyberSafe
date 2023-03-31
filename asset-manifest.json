@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/CyberSafe/static/css/main.7a8cfb31.css",
+    "main.css": "/CyberSafe/static/css/main.898ef3c8.css",
     "main.js": "/CyberSafe/static/js/main.5a775d3d.js",
     "static/js/787.fbc6086a.chunk.js": "/CyberSafe/static/js/787.fbc6086a.chunk.js",
     "static/media/Orbitron-VariableFont_wght.ttf": "/CyberSafe/static/media/Orbitron-VariableFont_wght.7228a1c750b75b23bdb4.ttf",
     "index.html": "/CyberSafe/index.html",
-    "main.7a8cfb31.css.map": "/CyberSafe/static/css/main.7a8cfb31.css.map",
+    "main.898ef3c8.css.map": "/CyberSafe/static/css/main.898ef3c8.css.map",
     "main.5a775d3d.js.map": "/CyberSafe/static/js/main.5a775d3d.js.map",
     "787.fbc6086a.chunk.js.map": "/CyberSafe/static/js/787.fbc6086a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7a8cfb31.css",
+    "static/css/main.898ef3c8.css",
     "static/js/main.5a775d3d.js"
   ]
 }
